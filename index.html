@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oh Studio</title>
+    <!-- link to external libraries -->
+    <!-- css -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.3-dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+
+    <!-- scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+
+    <!-- link to custom files -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/index.js"></script>
+
+    <script>
+      $(function () {
+        new WOW().init();
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav rounded-pill">
+        <a class="nav__btn nav__active rounded-pill" href="./index.html"
+          >Home</a
+        >
+        <a class="nav__btn" href="./profile.html">Profile</a>
+        <a class="nav__btn" href="./contact.html">contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero__section center-div">
+        <div class="hero__heading txt-width wow bounceInUp">
+          <h1>A brand and product designer working with clients globally</h1>
+        </div>
+
+        <ul class="badges d-flex wow bounceInUp mt-100">
+          <li class="badge rounded-pill text-bg-light">Branding</li>
+          <li class="badge rounded-pill text-bg-light">Product</li>
+          <li class="badge rounded-pill text-bg-light">Design Systems</li>
+        </ul>
+      </section>
+
+      <section class="home custom-container wow bounceInUp">
+        <div class="home-items row row-cols-1 row-cols-md-2 row-gap-3">
+          <div class="col">
+            <a href="./item-detail.html">
+              <div class="video-container">
+                <video
+                  class="border-round"
+                  src="./assets/vids/pexels-cottonbro-7181824 (Original).mp4"
+                  autoplay
+                  loop
+                  muted
+                ></video>
+              </div>
+
+              <button class="next">
+                <img src="./assets/imgs/icons/skip-next.png" alt="" />
+              </button>
+            </a>
+          </div>
+          <div class="col">
+            <a href="./item-detail1.html"
+              ><img
+                class="preview-img border-round"
+                src="./assets/imgs/horses.jpg"
+                alt="img" />
+              <button class="next">
+                <img src="./assets/imgs/icons/skip-next.png" alt="" /></button
+            ></a>
+          </div>
+          <div class="col">
+            <a href="./item-detail.html"
+              ><img
+                class="preview-img border-round"
+                src="./assets/imgs/horses.jpg"
+                alt="img" />
+              <button class="next">
+                <img src="./assets/imgs/icons/skip-next.png" alt="" /></button
+            ></a>
+          </div>
+          <div class="col">
+            <a href="./item-detail.html"
+              ><img
+                class="preview-img border-round"
+                src="./assets/imgs/horses.jpg"
+                alt="img" />
+              <button class="next">
+                <img src="./assets/imgs/icons/skip-next.png" alt="" /></button
+            ></a>
+          </div>
+          <div class="col">
+            <a href="./item-detail.html"
+              ><img
+                class="preview-img border-round"
+                src="./assets/imgs/horses.jpg"
+                alt="img" />
+              <button class="next">
+                <img src="./assets/imgs/icons/skip-next.png" alt="" /></button
+            ></a>
+          </div>
+          <div class="col">
+            <a href="./item-detail.html">
+              <div class="video-container">
+                <video
+                  class="border-round"
+                  src="./assets/vids/pexels-polina-tankilevitch-5586008 (1080p).mp4"
+                  autoplay
+                  loop
+                  muted
+                ></video>
+              </div>
+
+              <button class="next">
+                <img src="./assets/imgs/icons/skip-next.png" alt="" />
+              </button>
+            </a>
+          </div>
+          <div class="col">
+            <a href="./item-detail.html">
+              <div class="video-container">
+                <video
+                  class="border-round"
+                  src="./assets/vids/pexels-polina-tankilevitch-5586008 (1080p).mp4"
+                  autoplay
+                  loop
+                  muted
+                ></video>
+              </div>
+
+              <button class="next">
+                <img src="./assets/imgs/icons/skip-next.png" alt="" />
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact mt-100 center-div flex-column">
+        <h2 class="wow bounceInUp">Let's work together.</h2>
+        <a href="./contact.html" class="wow bounceInUp">Get in touch.</a>
+      </section>
+    </main>
+    <footer
+      class="custom-container d-flex flex-column align-items-center flex-md-row justify-content-md-between align-items-md-center"
+    >
+      <div
+        class="footer-info d-flex flex-column flex-md-row align-items-md-center"
+      >
+        <img
+          class="img-svg mx-auto"
+          src="./assets/imgs/icons/bx-loader-circle.svg"
+          alt="SVG"
+        />
+        <p>&copy; SemIII Visual gp 2023</p>
+      </div>
+      <ul class="socials d-flex justify-content-between">
+        <li><a href="/">Twitter</a></li>
+        <li><a href="/">Linkedin</a></li>
+        <li><a href="/">Mail</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
